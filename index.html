@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Rahul De is a first-year CSE student beginning his journey in programming, technology and problem solving.">
+	<title>Rahul De | CSE Student</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<canvas id="futuristic-bg" class="futuristic-bg cyber-bg" aria-hidden="true"></canvas>
+	<div class="portfolio-backdrop" aria-hidden="true">
+		<div class="starfield">
+			<span class="star star-1"></span><span class="star star-2"></span><span class="star star-3"></span>
+			<span class="star star-4"></span><span class="star star-5"></span><span class="star star-6"></span>
+			<span class="star star-7"></span><span class="star star-8"></span><span class="star star-9"></span>
+			<span class="star star-10"></span><span class="star star-11"></span><span class="star star-12"></span>
+			<span class="star star-13"></span><span class="star star-14"></span><span class="star star-15"></span>
+			<span class="star star-16"></span><span class="star star-17"></span><span class="star star-18"></span>
+		</div>
+		<div class="glow-orb glow-orb-purple"></div>
+		<div class="glow-orb glow-orb-cyan"></div>
+	</div>
+	<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+	<header class="site-header">
+		<a class="brand" href="#home" aria-label="Rahul De home"><span>RD</span><strong>RAHUL DE</strong></a>
+		<div class="header-right">
+			<a class="cv-logo" href="./RAHUL DE RESUME.pdf" target="_blank" rel="noopener noreferrer"
+				aria-label="View Rahul De's CV">CV</a>
+			<nav id="site-nav" class="site-nav" aria-label="Main navigation">
+				<a class="nav-link active" href="#home">Home</a>
+				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link" href="#journey">Journey</a>
+				<a class="nav-link" href="#skills">Skills</a>
+				<a class="nav-link" href="#projects">Projects</a>
+				<a class="nav-link" href="#certificates">Achievements</a>
+				<a class="nav-link" href="#contact">Contact</a>
+				<button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+					<span class="theme-icon">☼</span>
+				</button>
+			</nav>
+			<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+				aria-label="Toggle navigation menu">
+				<span></span><span></span><span></span>
+				<span class="sr-only">Toggle navigation menu</span>
+			</button>
+		</div>
+	</header>
+
+	<main>
+		<!-- 01. Hero Section -->
+		<section id="home" class="hero section-pad">
+			<div class="hero-grid-art" aria-hidden="true"></div>
+			<div class="hero-container">
+				<div class="hero-copy reveal">
+					<p class="eyebrow"><span class="eyebrow-dot"></span> FIRST-YEAR CSE STUDENT <b>•</b> MAKAUT</p>
+					<h1>RAHUL <em>DE</em></h1>
+					<p class="hero-statement">FROM ZERO <span>→</span> BUILDING THE FUTURE</p>
+					<p class="hero-intro">Learning technology, building projects and developing the discipline to become
+						a better developer every day.</p>
+					<div class="hero-location"><span>+</span> Kolkata, West Bengal</div>
+					<div class="button-row">
+						<a class="button button-primary" href="#projects">View My Work <span>↗</span></a>
+						<a class="button button-quiet" href="#contact">Contact Me <svg class="button-icon"
+								viewBox="0 0 24 24" aria-hidden="true">
+								<path
+									d="M5.2 6.4A2.2 2.2 0 0 1 7.4 4.2h9.2A2.2 2.2 0 0 1 18.8 6.4v6.2a2.2 2.2 0 0 1-2.2 2.2H10l-4.8 3.2v-3.2H7.4A2.2 2.2 0 0 1 5.2 12.6V6.4Zm2.2-.5a.5.5 0 0 0-.5.5v6.2a.5.5 0 0 0 .5.5h1.1v2.1l3.3-2.1h5.6a.5.5 0 0 0 .5-.5V6.4a.5.5 0 0 0-.5-.5H7.4Z"
+									fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+									stroke-linejoin="round" />
+							</svg></a>
+					</div>
+					<div class="hero-socials" aria-label="Social media links">
+						<a class="hero-social-button" href="https://github.com/rahulde2007" target="_blank"
+							rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+							<svg viewBox="0 0 24 24" aria-hidden="true">
+								<path
+									d="M12 2.5a9.5 9.5 0 0 0-3 18.51c.47.09.65-.2.65-.45v-1.73c-2.65.58-3.2-1.12-3.2-1.12-.43-1.1-1.06-1.4-1.06-1.4-.87-.6.07-.59.07-.59.96.07 1.47.99 1.47.99.85 1.46 2.22 1.04 2.76.8.09-.62.33-1.04.6-1.28-2.12-.24-4.35-1.06-4.35-4.72 0-1.04.37-1.89.99-2.56-.1-.24-.43-1.21.1-2.53 0 0 .8-.26 2.62.98A9.1 9.1 0 0 1 12 7.1c.8 0 1.6.11 2.35.33 1.82-1.24 2.62-.98 2.62-.98.53 1.32.2 2.29.1 2.53.62.67.99 1.52.99 2.56 0 3.67-2.23 4.48-4.36 4.72.34.3.64.87.64 1.76v2.61c0 .25.17.54.65.45A9.5 9.5 0 0 0 12 2.5Z" />
+							</svg>
+						</a>
+						<a class="hero-social-button" href="https://www.linkedin.com/in/rahul-de-r6294520571"
+							target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn">
+							<svg viewBox="0 0 24 24" aria-hidden="true">
+								<path
+									d="M5.2 3.5a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4ZM3.7 8h3v12h-3V8Zm5 0h2.9v1.64h.04c.4-.76 1.38-1.96 2.84-1.96 3.04 0 3.6 2 3.6 4.6V20h-3v-6.86c0-1.64-.03-3.75-2.28-3.75-2.28 0-2.63 1.78-2.63 3.63V20h-3V8Z" />
+							</svg>
+						</a>
+						<a class="hero-social-button" href="https://twitter.com/rahulde_937" target="_blank"
+							rel="noopener noreferrer" aria-label="X profile" title="X">
+							<svg viewBox="0 0 24 24" aria-hidden="true">
+								<path
+									d="M18.9 2.5h3.2l-7.02 8.03 8.27 11.97h-6.48l-5.07-7.42-5.79 7.42H2.6l7.48-8.57L2.4 2.5h6.65l4.58 6.77L18.9 2.5Zm-1.13 18.2h1.77L7.1 4.2H5.24l12.53 16.5Z" />
+							</svg>
+						</a>
+						<a class="hero-social-button" href="https://www.instagram.com/rahulde_18" target="_blank"
+							rel="noopener noreferrer" aria-label="Instagram profile" title="Instagram">
+							<svg viewBox="0 0 24 24" aria-hidden="true">
+								<path
+									d="M7 2.5h10A4.5 4.5 0 0 1 21.5 7v10A4.5 4.5 0 0 1 17 21.5H7A4.5 4.5 0 0 1 2.5 17V7A4.5 4.5 0 0 1 7 2.5Zm0 2.2A2.3 2.3 0 0 0 4.7 7v10A2.3 2.3 0 0 0 7 19.3h10A2.3 2.3 0 0 0 19.3 17V7A2.3 2.3 0 0 0 17 4.7H7Zm6.5 2.8a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4Zm0 2.2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.2-2.6a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0Z" />
+							</svg>
+						</a>
+					</div>
+					<div class="hero-stats" aria-label="Hero statistics">
+						<article class="hero-stat-card">
+							<span class="hero-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+									<path d="m9 7-5 5 5 5M15 7l5 5-5 5M13 5l-2 14" fill="none" stroke="currentColor"
+										stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+								</svg></span>
+							<span class="hero-stat-content"><strong>500+</strong><span>DSA Problems Solved</span></span>
+						</article>
+						<article class="hero-stat-card">
+							<span class="hero-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+									<path
+										d="M13.5 3.5c3.1 1.2 5.8 4 7 7l-7.2 7.2-4.5-1-1-4.5 7.2-7.2ZM7.8 16.2 3 21M6.5 12.5l-3 1M11.5 17.5l-1 3M15.5 8.5h.01"
+										fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg></span>
+							<span class="hero-stat-content"><strong>2+</strong><span>Projects Built</span></span>
+						</article>
+						<article class="hero-stat-card">
+							<span class="hero-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+									<rect x="6" y="6" width="12" height="12" rx="2" fill="none" stroke="currentColor"
+										stroke-width="1.6" />
+									<path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4M10 10h4v4h-4z"
+										fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg></span>
+							<span class="hero-stat-content"><strong>∞</strong><span>Passion for Code</span></span>
+						</article>
+					</div>
+				</div>
+				<div class="hero-photo reveal">
+					<div class="photo-orbit-wrapper">
+						<div class="hero-photo-frame">
+							<img src="./images/hero.png" alt="Rahul De - CSE Student" class="hero-photo-img">
+						</div>
+						<span class="photo-orbit-dot" aria-hidden="true"></span>
+					</div>
+				</div>
+			</div>
+			<div class="hero-meta reveal">
+				<div class="orbit">
+					<span class="orbit-line"></span>
+					<span class="orbit-dot"></span>
+					<div class="initials">RD</div>
+				</div>
+				<div>
+					<p>CSE / 26CSE137</p>
+					<small>FUTURE INSTITUTE OF ENGINEERING</small>
+					<small>AND MANAGEMENT · MAKAUT</small>
+				</div>
+			</div>
+			<div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+		</section>
+
+		<section id="college-id-card" class="college-id-card-section section-pad" aria-label="College ID Card section">
+			<div class="college-id-card-stage reveal">
+				<article class="college-id-card" aria-label="Rahul De college ID card">
+					<div class="college-id-card-inner">
+						<div class="college-id-card-header">
+							<span class="college-id-brand">FIEM</span>
+							<span class="college-id-badge">College ID Card</span>
+						</div>
+						<div class="college-id-card-main">
+							<div class="college-id-photo-wrap">
+								<img src="./images/Collage%20id%20card.png" alt="Rahul De college portrait"
+									class="college-id-photo">
+							</div>
+							<div class="college-id-meta">
+								<p class="college-id-role">Student • 1st Yr</p>
+								<h3>Rahul</h3>
+								<p class="college-id-university">FUTURE INSTITUTE OF ENGINEERING &amp; MANAGEMENT</p>
+								<div class="college-id-details">
+									<div>
+										<span>Dept</span>
+										<strong>CSE</strong>
+									</div>
+									<div>
+										<span>Batch</span>
+										<strong>2026–30</strong>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="college-id-card-footer">
+							<div class="college-id-id-block">
+								<span>ID</span>
+								<strong>26CSE137</strong>
+							</div>
+							<div class="college-id-valid-block">
+								<span>Valid</span>
+								<strong>2026–30</strong>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- 02. About Section -->
+		<section id="about" class="section-pad about-section">
+			<div class="section-heading reveal">
+				<p class="kicker">01 / WHO I AM</p>
+				<h2>Learning with<br><i>intention.</i></h2>
+			</div>
+			<div class="about-grid">
+				<div class="about-lead reveal">
+					<p>I am Rahul De, a first-year CSE student at Future Institute of Engineering and Management under
+						MAKAUT, from Kolkata, West Bengal, India.</p>
+				</div>
+				<div class="about-detail reveal">
+					<p>I am at the beginning of my journey in computer science. I believe strong fundamentals,
+						consistent learning and building real projects are the foundation of becoming a good developer.
+					</p>
+					<p>I enjoy exploring technology and turning what I learn into practical projects. My interests
+						include coding, technology and the discipline represented by the Army.</p>
+					<p class="about-learning"><strong>CURRENTLY LEARNING</strong><span>C · Python · HTML · SQL · DBMS ·
+							Computer Networking · C++</span></p>
+				</div>
+			</div>
+			<div class="education reveal">
+				<div class="education-label">EDUCATION <span>— 01</span></div>
+				<div class="education-main">
+					<p class="mono">CURRENTLY STUDYING</p>
+					<h3>Computer Science<br>&amp; Engineering</h3>
+					<p>Future Institute of Engineering<br>and Management</p>
+				</div>
+				<div class="education-side">
+					<p>UNIVERSITY</p>
+					<strong>MAKAUT</strong>
+					<p>LOCATION</p>
+					<strong>KOLKATA, WB</strong>
+				</div>
+			</div>
+		</section>
+
+		<!-- 03. Journey Section -->
+		<section id="journey" class="section-pad journey-section">
+			<div class="section-heading reveal">
+				<div>
+					<p class="kicker">02 / THE ROAD AHEAD</p>
+					<h2>My learning<br><i>journey.</i></h2>
+				</div>
+				<p class="heading-note">A steady path from curiosity to capability, built one honest step at a time.</p>
+			</div>
+			<div class="journey-list">
+				<article class="journey-item reveal">
+					<span class="journey-number">01</span>
+					<div>
+						<p class="mono">THE START</p>
+						<h3>Curiosity before certainty.</h3>
+						<p>Started my CSE journey with curiosity and a desire to understand how technology works.</p>
+					</div>
+					<span class="journey-mark">↗</span>
+				</article>
+				<article class="journey-item reveal">
+					<span class="journey-number">02</span>
+					<div>
+						<p class="mono">BUILDING FUNDAMENTALS</p>
+						<h3>Learning the essentials.</h3>
+						<p>Exploring C, Python, HTML, SQL, DBMS and Computer Networking.</p>
+					</div>
+					<span class="journey-mark">↗</span>
+				</article>
+				<article class="journey-item reveal">
+					<span class="journey-number">03</span>
+					<div>
+						<p class="mono">EXPANDING</p>
+						<h3>Strengthening the base.</h3>
+						<p>Currently learning C++ and strengthening my programming fundamentals.</p>
+					</div>
+					<span class="journey-mark">↗</span>
+				</article>
+				<article class="journey-item reveal">
+					<span class="journey-number">04</span>
+					<div>
+						<p class="mono">BUILDING</p>
+						<h3>Learning by making.</h3>
+						<p>Turning what I learn into practical experiments as I continue building my technical
+							foundation.</p>
+					</div>
+					<span class="journey-mark">↗</span>
+				</article>
+				<article class="journey-item reveal">
+					<span class="journey-number">05</span>
+					<div>
+						<p class="mono">THE ROAD AHEAD</p>
+						<h3>Growing with intention.</h3>
+						<p>Continue learning, build better projects and grow into a skilled software developer.</p>
+					</div>
+					<span class="journey-mark">↗</span>
+				</article>
+			</div>
+		</section>
+
+		<!-- 04. Skills Section -->
+		<section id="skills" class="section-pad skills-section skills-orbit-section">
+			<div class="section-heading reveal">
+				<p class="kicker tech-orbit-kicker">03 / MY TECH ORBIT</p>
+				<h2>My Tech <i>Orbit</i></h2>
+				<p class="heading-note">The technologies and concepts orbiting my engineering core — hover each planet
+					to explore.</p>
+			</div>
+			<!-- Skills orbit container (populated by JS) -->
+			<div class="skills-orbit-container" id="skillsOrbitContainer"
+				aria-label="Technologies in my technical ecosystem">
+				<div class="orbit-track"></div>
+				<div class="orbit-track"></div>
+				<div class="orbit-track"></div>
+				<div class="skills-orbit-center" aria-label="Engineering core">
+					<svg viewBox="0 0 64 64" aria-hidden="true">
+						<ellipse cx="32" cy="32" rx="25" ry="10" transform="rotate(30 32 32)"></ellipse>
+						<ellipse cx="32" cy="32" rx="25" ry="10" transform="rotate(-30 32 32)"></ellipse>
+						<circle cx="32" cy="32" r="5"></circle>
+					</svg>
+					<span>CORE</span>
+				</div>
+			</div>
+			<div class="skills-grid">
+				<article class="skill reveal">
+					<span class="skill-index">01</span>
+					<div>
+						<h3>Programming</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path
+										d="M16.92 4.18A9.9 9.9 0 0 0 12 2.92C6.98 2.92 2.92 6.98 2.92 12s4.06 9.08 9.08 9.08c1.78 0 3.46-.51 4.9-1.42a9.92 9.92 0 0 0 3.73-4.32l-3.32-1.37a6.22 6.22 0 0 1-2.31 2.7 5.6 5.6 0 0 1-3 .83 5.71 5.71 0 0 1-5.7-5.7 5.71 5.71 0 0 1 5.7-5.7c1.1 0 2.14.31 3 .85.87.56 1.54 1.36 1.95 2.3l3.32-1.37a9.77 9.77 0 0 0-3.65-4.7z"
+										fill="#00599C" />
+									<path
+										d="M12 5.5a6.5 6.5 0 0 0-6.5 6.5 6.5 6.5 0 0 0 6.5 6.5c1.47 0 2.82-.49 3.9-1.31l-1.34-2.32a3.84 3.84 0 0 1-2.56.97 3.84 3.84 0 0 1-3.84-3.84 3.84 3.84 0 0 1 3.84-3.84c1 0 1.9.36 2.59 1l1.34-2.32A6.47 6.47 0 0 0 12 5.5z"
+										fill="#659AD2" />
+								</svg>C</span>
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path
+										d="M11.9 2c-3.1 0-2.9 1.3-2.9 1.3l.01 1.4h2.9v.4H6.1S4 4.9 4 8c0 3.2 1.8 3.1 1.8 3.1h1.1v-1.5c0-1.8 1.5-1.7 1.5-1.7h2.9c1.7 0 1.6-1.5 1.6-1.5V4.4S13.1 2 11.9 2zm-1.6 1a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2z"
+										fill="#3776AB" />
+									<path
+										d="M12.1 22c3.1 0 2.9-1.3 2.9-1.3l-.01-1.4h-2.9v-.4h5.8s2.1.2 2.1-2.9c0-3.2-1.8-3.1-1.8-3.1h-1.1v1.5c0 1.8-1.5 1.7-1.5 1.7H12.7c-1.7 0-1.6 1.5-1.6 1.5v1.9s-.2 2.5 1 2.5zm1.6-1a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2z"
+										fill="#FFD43B" />
+								</svg>Python</span>
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path d="M11.5 2.5L2 8v8l9.5 5.5L21 16V8L11.5 2.5z" fill="#00599C" />
+									<path d="M11.5 4.5L4 8.8v6.4l7.5 4.3 7.5-4.3V8.8L11.5 4.5z" fill="#004482" />
+									<path
+										d="M10.8 14.2c-.6.5-1.4.8-2.3.8-1.7 0-3-1.3-3-3s1.3-3 3-3c.9 0 1.7.3 2.3.8l.9-1.2C10.8 7.9 9.7 7.5 8.5 7.5 6 7.5 4 9.5 4 12s2 4.5 4.5 4.5c1.2 0 2.3-.4 3.2-1.1l-.9-1.2z"
+										fill="#FFFFFF" />
+									<path
+										d="M14.5 10.5v1h-1v1h1v1h1v-1h1v-1h-1v-1h-1zm4 0v1h-1v1h1v1h1v-1h1v-1h-1v-1h-1z"
+										fill="#659AD2" />
+								</svg>C++</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">02</span>
+					<div>
+						<h3>Web</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path d="M3 2l1.6 18.2L12 22l7.4-1.8L21 2H3z" fill="#E34F26" />
+									<path d="M12 3.7v16.5l5.8-1.5L19.3 3.7H12z" fill="#EF652A" />
+									<path
+										d="M12 7.7H7.7l.2 2.5h4.1V7.7zm0 5H8.1l.3 2.6 3.6 1v-2.6l-1.8-.5-.1-1H12v-.5zm0-7.5v2.5h4.4l-.4 4.5H12v2.5h3.9l-.4 4-3.5 1v2.6l6-1.6.8-9.4.3-3.6H12z"
+										fill="#FFFFFF" />
+								</svg>HTML</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">03</span>
+					<div>
+						<h3>Database</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<ellipse cx="12" cy="5" rx="8" ry="3" fill="#00758F" />
+									<path d="M4 5v5c0 1.66 3.58 3 8 3s8-1.34 8-3V5" stroke="#00758F" stroke-width="2"
+										fill="none" />
+									<path d="M4 10v5c0 1.66 3.58 3 8 3s8-1.34 8-3v-5" stroke="#00758F" stroke-width="2"
+										fill="none" />
+									<path d="M4 15v4c0 1.66 3.58 3 8 3s8-1.34 8-3v-4" stroke="#00758F" stroke-width="2"
+										fill="none" />
+									<circle cx="16" cy="16" r="4" fill="#F29111" />
+									<path d="M14.5 16l1 1 2-2" stroke="#FFFFFF" stroke-width="1.2"
+										stroke-linecap="round" stroke-linejoin="round" />
+								</svg>SQL</span>
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<ellipse cx="12" cy="6" rx="7" ry="2.5" fill="#0284C7" />
+									<ellipse cx="12" cy="6" rx="7" ry="2.5" stroke="#38BDF8" stroke-width="1" />
+									<path d="M5 6v5c0 1.38 3.13 2.5 7 2.5s7-1.12 7-2.5V6" stroke="#0284C7"
+										stroke-width="1.8" fill="none" />
+									<path d="M5 11v5c0 1.38 3.13 2.5 7 2.5s7-1.12 7-2.5v-5" stroke="#0284C7"
+										stroke-width="1.8" fill="none" />
+									<path d="M5 16v2c0 1.38 3.13 2.5 7 2.5s7-1.12 7-2.5v-2" stroke="#38BDF8"
+										stroke-width="1.8" fill="none" />
+								</svg>DBMS</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">04</span>
+					<div>
+						<h3>Computer Science</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<circle cx="12" cy="5" r="3" fill="#38BDF8" />
+									<circle cx="5" cy="18" r="3" fill="#34D399" />
+									<circle cx="19" cy="18" r="3" fill="#34D399" />
+									<path d="M12 8v4M12 12l-5 3M12 12l5 3" stroke="#38BDF8" stroke-width="1.8"
+										stroke-linecap="round" />
+								</svg>Computer Networking</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">05</span>
+					<div>
+						<h3>Tools</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path d="M17.5 2.1L6.7 11.2l4.8 3.6 6-4.5V2.1z" fill="#0065A9" />
+									<path d="M17.5 21.9l-6-4.5-4.8 3.6L17.5 21.9z" fill="#007ACC" />
+									<path
+										d="M6.7 11.2L2 7.7v8.6l4.7-3.5 4.8 3.6 6 4.5 4.5-2.2V5.3l-4.5-2.2-6 4.5-4.8 3.6z"
+										fill="#1F9CF0" />
+									<path d="M17.5 2.1l4.5 2.2v15.4l-4.5 2.2V2.1z" fill="#0065A9" />
+								</svg>VS Code</span>
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path
+										d="M21.6 10.9L13.1 2.4c-.6-.6-1.5-.6-2.1 0L8.9 4.5l2.7 2.7c.6-.2 1.3 0 1.8.5.5.5.6 1.3.3 1.9l2.6 2.6c.6-.3 1.4-.2 1.9.3.7.7.7 1.9 0 2.6-.7.7-1.9.7-2.6 0-.6-.6-.7-1.4-.3-2.1l-2.4-2.4v5.3c.2.1.4.3.5.5.7.7.7 1.9 0 2.6-.7.7-1.9.7-2.6 0-.7-.7-.7-1.9 0-2.6.2-.2.4-.4.6-.5V8.5c-.2-.1-.4-.3-.6-.5-.6-.6-.7-1.4-.3-2.1L8.2 3.8 2.4 9.6c-.6.6-.6 1.5 0 2.1l8.5 8.5c.6.6 1.5.6 2.1 0l8.6-8.6c.6-.6.6-1.6 0-2.2v-.5z"
+										fill="#F05032" />
+								</svg>Git</span>
+							<span><svg class="tech-icon github-icon" width="15" height="15" viewBox="0 0 24 24"
+									fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+										fill="#FFFFFF" />
+								</svg>GitHub</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">06</span>
+					<div>
+						<h3>Exploring</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path d="M12 2L14.4 8.6L21 11L14.4 13.4L12 20L9.6 13.4L3 11L9.6 8.6L12 2Z"
+										fill="#A855F7" />
+									<circle cx="19" cy="5" r="2" fill="#38BDF8" />
+									<circle cx="5" cy="19" r="1.5" fill="#38BDF8" />
+								</svg>AI &amp; Data</span>
+						</div>
+					</div>
+				</article>
+				<article class="skill reveal">
+					<span class="skill-index">07</span>
+					<div>
+						<h3>Modern Languages</h3>
+						<div class="skill-list">
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<path
+										d="M8.85 16.83c0 .24.19.43.43.43h5.44c.24 0 .43-.19.43-.43 0-.24-.19-.43-.43-.43H9.28c-.24 0-.43.19-.43.43zm-1.02 2.05c0 .24.19.43.43.43h7.48c.24 0 .43-.19.43-.43 0-.24-.19-.43-.43-.43H8.26c-.24 0-.43.19-.43.43zm1.88 2.05c0 .24.19.43.43.43h3.72c.24 0 .43-.19.43-.43 0-.24-.19-.43-.43-.43h-3.72c-.24 0-.43.19-.43.43zM19.14 7.5h-1.28V6.28A4.28 4.28 0 0 0 13.58 2H6.42A4.28 4.28 0 0 0 2.14 6.28v6.44a4.28 4.28 0 0 0 4.28 4.28h7.16a4.28 4.28 0 0 0 4.28-4.28V11.5h1.28a2.57 2.57 0 0 0 2.57-2.57A1.43 1.43 0 0 0 19.14 7.5zm-3.28 5.22a2.14 2.14 0 0 1-2.14 2.14H6.42a2.14 2.14 0 0 1-2.14-2.14V6.28a2.14 2.14 0 0 1 2.14-2.14h7.16a2.14 2.14 0 0 1 2.14 2.14v6.44zm3.85-3.79c0 .24-.19.43-.43.43h-1.28V8.93h1.28c.24 0 .43.19.43.43v-.43z"
+										fill="#EA2D2E" />
+								</svg>Java</span>
+							<span><svg class="tech-icon" width="15" height="15" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<rect width="24" height="24" rx="3" fill="#F7DF1E" />
+									<path
+										d="M12.5 17.8c.8.5 1.7.8 2.6.8 1.4 0 2.3-.7 2.3-1.8 0-1.2-.8-1.7-2.2-2.3l-.7-.3c-2-.9-3.3-2-3.3-3.9 0-2 1.5-3.5 3.8-3.5 1.1 0 2 .3 2.7.7l-.7 2c-.6-.4-1.3-.6-2-.6-1.1 0-1.8.6-1.8 1.4 0 1 .7 1.5 2 2l.7.3c2.3 1 3.5 2.1 3.5 4.1 0 2.3-1.7 3.8-4.4 3.8-1.3 0-2.5-.4-3.3-.9l.8-2.2zM9.5 7h2.2v8.5c0 2.4-1.3 3.6-3.6 3.6-.9 0-1.9-.2-2.5-.6l.6-2c.4.3 1 .4 1.6.4 1 0 1.6-.5 1.6-1.7V7z"
+										fill="#000000" />
+								</svg>JavaScript</span>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- 04. Competitive Profiles Section -->
+		<section id="competitive-profiles" class="section-pad competitive-section">
+			<div class="section-heading competitive-heading reveal">
+				<div>
+					<p class="kicker competitive-kicker">04 / COMPETITIVE PROFILES</p>
+					<h2>Competitive <i class="heading-accent">Profiles</i></h2>
+				</div>
+				<p class="heading-note">Track my progress across top competitive programming platforms.</p>
+			</div>
+			<div class="competitive-grid">
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/leetcode.svg" alt="LeetCode logo"></span>
+							<div class="platform-text">
+								<h3>LeetCode</h3>
+								<p>@rahulde_09</p>
+							</div>
+						</div><span class="competitive-badge">Active</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat"><strong class="stat-number">500+</strong><span
+							class="stat-label">Problems Solved</span></div>
+					<a class="competitive-link" href="https://leetcode.com/u/rahulde_09/" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/codeforces.svg" alt="Codeforces logo"></span>
+							<div class="platform-text">
+								<h3>Codeforces</h3>
+								<p>@rahulde_09</p>
+							</div>
+						</div><span class="competitive-badge">Specialist</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat"><strong class="stat-number">2007</strong><span
+							class="stat-label">Rating</span></div>
+					<a class="competitive-link" href="https://codeforces.com/profile/rahulde_09" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/codechef.svg" alt="CodeChef logo"></span>
+							<div class="platform-text">
+								<h3>CodeChef</h3>
+								<p>@rahulde_09</p>
+							</div>
+						</div><span class="competitive-badge">Active</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat"><strong class="stat-number">2007</strong><span
+							class="stat-label">Rating</span></div>
+					<a class="competitive-link" href="https://www.codechef.com/users/rahulde_09" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/geeksforgeeks.svg" alt="GeeksforGeeks logo"></span>
+							<div class="platform-text">
+								<h3>GeeksforGeeks</h3>
+								<p>@rahulde_2007</p>
+							</div>
+						</div><span class="competitive-badge">Active</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat"><strong class="stat-number">500+</strong><span
+							class="stat-label">Problems Solved</span></div>
+					<a class="competitive-link" href="https://www.geeksforgeeks.org/profile/rahulde2007" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/takeuforward.svg" alt="TakeUForward logo"></span>
+							<div class="platform-text">
+								<h3>TakeUForward</h3>
+								<p>@rahulde_09</p>
+							</div>
+						</div><span class="competitive-badge">Learning</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat competitive-stat-stack"><strong class="stat-number">SDE
+							Sheet</strong><span class="stat-label">In Progress</span></div>
+					<a class="competitive-link" href="https://takeuforward.org/profile/rahulde_09" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+				<article class="competitive-card reveal">
+					<div class="competitive-card-top">
+						<div class="competitive-brand"><span class="platform-icon"><img
+									src="./assets/platform-logos/hackerrank.svg" alt="HackerRank logo"></span>
+							<div class="platform-text">
+								<h3>HackerRank</h3>
+								<p>@rahulde937</p>
+							</div>
+						</div><span class="competitive-badge">Active</span>
+					</div>
+					<div class="competitive-card-divider"></div>
+					<div class="competitive-stat competitive-stat-stack"><strong class="stat-number">Competitive
+							Profile</strong><span class="stat-label">HackerRank</span></div>
+					<a class="competitive-link" href="https://www.hackerrank.com/profile/rahulde937" target="_blank"
+						rel="noopener noreferrer">View Profile <span class="link-glyph">↗</span></a>
+				</article>
+			</div>
+		</section>
+
+		<!-- 05. Projects Section -->
+		<section id="projects" class="section-pad projects-section">
+			<div class="section-heading projects-heading reveal">
+				<div>
+					<p class="kicker">05 / THE WORKBENCH</p>
+					<h2>Projects,<br><i>built to learn.</i></h2>
+				</div>
+				<p class="heading-note">A space for the work I will build as my technical foundation grows.</p>
+			</div>
+			<div class="projects-grid reveal">
+				<a class="project-card reveal" href="https://github.com/rahulde2007/WiFi-QR-Generator" target="_blank"
+					rel="noopener noreferrer" aria-label="Open WiFi QR Generator in a new tab">
+					<div class="project-card-header">
+						<div class="browser-dots">
+							<span class="dot dot-red"></span>
+							<span class="dot dot-yellow"></span>
+							<span class="dot dot-green"></span>
+						</div>
+						<div class="project-header-lines">
+							<span class="header-line header-line-1"></span>
+							<span class="header-line header-line-2"></span>
+							<span class="header-line header-line-3"></span>
+						</div>
+					</div>
+					<div class="project-info">
+						<div class="project-top-row">
+							<span class="project-category">WEB UTILITY</span>
+							<div class="project-actions">
+								<span class="card-icon-button" aria-hidden="true">
+									<svg viewBox="0 0 24 24" aria-hidden="true">
+										<path
+											d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+											fill="currentColor" />
+									</svg>
+								</span>
+							</div>
+						</div>
+						<p class="project-label">01 / PROJECT</p>
+						<h3 class="project-title">WiFi QR Generator</h3>
+						<p class="project-subtitle">Instant Wireless Connection QR Code Generator</p>
+						<p class="project-description">A fast, lightweight web utility that generates scannable QR codes
+							for quick Wi-Fi network connection without sharing passwords manually.</p>
+						<div class="project-divider"></div>
+						<div class="project-meta">
+							<div class="project-meta-row">
+								<dt>TYPE</dt>
+								<dd>Web Utility</dd>
+							</div>
+							<div class="project-meta-row">
+								<dt>DEPLOYED</dt>
+								<dd>Vercel · Live Demo ↗</dd>
+							</div>
+						</div>
+						<div class="tech-tags">
+							<span>HTML</span>
+							<span>CSS</span>
+							<span>JavaScript</span>
+						</div>
+					</div>
+				</a>
+
+				<a class="project-card reveal" href="https://github.com/rahulde2007/Graph-RAG-App" target="_blank"
+					rel="noopener noreferrer" aria-label="Open Graph RAG repository in a new tab">
+					<div class="project-card-header">
+						<div class="browser-dots">
+							<span class="dot dot-red"></span>
+							<span class="dot dot-yellow"></span>
+							<span class="dot dot-green"></span>
+						</div>
+						<div class="project-header-lines">
+							<span class="header-line header-line-1"></span>
+							<span class="header-line header-line-2"></span>
+							<span class="header-line header-line-3"></span>
+						</div>
+					</div>
+					<div class="project-info">
+						<div class="project-top-row">
+							<span class="project-category">AI / GRAPH RAG</span>
+							<div class="project-actions">
+								<span class="card-icon-button" aria-hidden="true">
+									<svg viewBox="0 0 24 24" aria-hidden="true">
+										<path
+											d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+											fill="currentColor" />
+									</svg>
+								</span>
+							</div>
+						</div>
+						<p class="project-label">02 / PROJECT</p>
+						<h3 class="project-title">Graph RAG</h3>
+						<p class="project-subtitle">Knowledge Graph-Powered Retrieval Augmented Generation</p>
+						<p class="project-description">An intelligent retrieval system combining knowledge graphs with
+							LLMs to provide structured, contextual answers from complex data sources.</p>
+						<div class="project-divider"></div>
+						<div class="project-meta">
+							<div class="project-meta-row">
+								<dt>TYPE</dt>
+								<dd>AI Application</dd>
+							</div>
+							<div class="project-meta-row">
+								<dt>SOURCE</dt>
+								<dd>GitHub · Repository ↗</dd>
+							</div>
+						</div>
+						<div class="tech-tags">
+							<span>Python</span>
+							<span>Neo4j</span>
+							<span>RAG</span>
+						</div>
+					</div>
+				</a>
+
+				<a class="project-card reveal" href="https://github.com/rahulde2007/Repo-mind" target="_blank"
+					rel="noopener noreferrer" aria-label="Open RepoMind repository in a new tab">
+					<div class="project-card-header">
+						<div class="browser-dots">
+							<span class="dot dot-red"></span>
+							<span class="dot dot-yellow"></span>
+							<span class="dot dot-green"></span>
+						</div>
+						<div class="project-header-lines">
+							<span class="header-line header-line-1"></span>
+							<span class="header-line header-line-2"></span>
+							<span class="header-line header-line-3"></span>
+						</div>
+					</div>
+					<div class="project-info">
+						<div class="project-top-row">
+							<span class="project-category">DEV TOOL</span>
+							<div class="project-actions">
+								<span class="card-icon-button" aria-hidden="true">
+									<svg viewBox="0 0 24 24" aria-hidden="true">
+										<path
+											d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+											fill="currentColor" />
+									</svg>
+								</span>
+							</div>
+						</div>
+						<p class="project-label">03 / PROJECT</p>
+						<h3 class="project-title">RepoMind</h3>
+						<p class="project-subtitle">AI-Powered Codebase Analysis &amp; Repository Insights</p>
+						<p class="project-description">A smart developer tool that analyzes GitHub repositories, parses
+							project architecture, and assists in understanding complex codebases.</p>
+						<div class="project-divider"></div>
+						<div class="project-meta">
+							<div class="project-meta-row">
+								<dt>TYPE</dt>
+								<dd>Developer Tool</dd>
+							</div>
+							<div class="project-meta-row">
+								<dt>SOURCE</dt>
+								<dd>GitHub · Repository ↗</dd>
+							</div>
+						</div>
+						<div class="tech-tags">
+							<span>Python</span>
+							<span>NLP</span>
+							<span>GitHub API</span>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="projects-cta reveal">
+				<a class="button button-quiet projects-cta-btn" href="https://github.com/rahulde2007" target="_blank"
+					rel="noopener noreferrer">VIEW ALL PROJECTS</a>
+			</div>
+		</section>
+
+		<!-- 06. Certificates Section -->
+		<section id="certificates" class="certificates-section section-pad" aria-labelledby="certificates-title">
+			<div class="certificates-heading reveal">
+				<p class="kicker">06 / CERTIFICATES</p>
+				<h2 id="certificates-title">Certified<br><i>milestones.</i></h2>
+			</div>
+			<div class="certificates-grid reveal">
+				<a class="certificates-card" href="certificate/First commit.pdf" target="_blank"
+					rel="noopener noreferrer" aria-label="Open FIEM Portfolio Challenge certificate in a new tab">
+					<div class="certificates-card-top">
+						<span class="certificates-badge">Certificate</span>
+						<span class="certificates-arrow">↗</span>
+					</div>
+					<div class="certificates-card-body">
+						<p class="certificates-label">01 / FIEM</p>
+						<h3>Portfolio Challenge 2026</h3>
+						<p>Issued: August 2026</p>
+					</div>
+				</a>
+				<a class="certificates-card" href="certificate/CirQula India.pdf" target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Open CirQula India e-WASTE AWARENESS certificate in a new tab">
+					<div class="certificates-card-top">
+						<span class="certificates-badge">Certificate</span>
+						<span class="certificates-arrow">↗</span>
+					</div>
+					<div class="certificates-card-body">
+						<p class="certificates-label">02 / CIRQULA INDIA</p>
+						<h3>e-WASTE AWARENESS</h3>
+						<p>Issued: September 2026</p>
+					</div>
+				</a>
+				<a class="certificates-card" href="https://www.coursera.org/account/accomplishments/verify/EKXSLEHWX0ZU"
+					target="_blank" rel="noopener noreferrer" aria-label="Open AWS S3 Basics certificate in a new tab">
+					<div class="certificates-card-top">
+						<span class="certificates-badge">Certificate</span>
+						<span class="certificates-arrow">↗</span>
+					</div>
+					<div class="certificates-card-body">
+						<p class="certificates-label">03 / AN ONLINE PROJECT AUTHORIZED BY COURSERA AND OFFERED THROUGH
+							COURSERA</p>
+						<h3>AWS S3 Basics</h3>
+						<p>Issued: September 2026</p>
+					</div>
+				</a>
+				<a class="certificates-card"
+					href="https://graphacademy.neo4j.com/c/c2a5bd5b-ed21-4833-8193-273ec87ae5cc" target="_blank"
+					rel="noopener noreferrer" aria-label="Open Neo4j Certified Professional certificate in a new tab">
+					<div class="certificates-card-top">
+						<span class="certificates-badge">Certificate</span>
+						<span class="certificates-arrow">↗</span>
+					</div>
+					<div class="certificates-card-body">
+						<p class="certificates-label">04 / NEO4J</p>
+						<h3>Neo4j Certified Professional</h3>
+						<p>Issued: September 2026</p>
+					</div>
+				</a>
+			</div>
+			<div class="certificates-cta reveal">
+				<a class="button button-quiet certificates-cta-btn"
+					href="https://www.linkedin.com/in/rahul-de-r6294520571/" target="_blank"
+					rel="noopener noreferrer">VIEW ALL CERTIFICATES</a>
+			</div>
+		</section>
+
+		<!-- Personal Brand Section -->
+		<section class="statement-section section-pad">
+			<div class="statement-mark">“</div>
+			<p class="kicker reveal">PERSONAL BRAND</p>
+			<blockquote class="reveal">I am Rahul De, a first-year CSE student learning by building, experimenting and
+				staying consistent.</blockquote>
+			<p class="brand-support reveal">Curious about code. Focused on growth. Building one project at a time.</p>
+			<div class="brand-pillars reveal">
+				<span><b>CODING</b> Building &amp; problem solving</span>
+				<span><b>ARMY</b> Discipline &amp; consistency</span>
+			</div>
+			<p class="statement-sign reveal">CODE WITH CURIOSITY. BUILD WITH PURPOSE. GROW WITH DISCIPLINE.</p>
+		</section>
+
+		<!-- 07. Contact & Social Links Section -->
+		<section id="contact" class="section-pad contact-section">
+			<div class="contact-shell reveal">
+				<div class="contact-copy">
+					<p class="kicker">07 / CONTACT</p>
+					<h3 class="contact-intro-head">Let’s build something together!</h3>
+					<p class="contact-intro-copy">I'm currently looking for new opportunities, particularly internship
+						or entry-level Software Engineering roles. Whether you have a question, a project idea, or just
+						want to say hi, I'll try my best to get back to you!</p>
+
+					<div class="contact-quick-info" aria-label="Contact details">
+						<a class="contact-item" href="mailto:rahulde937@gmail.com">
+							<span class="contact-item-icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24">
+									<path
+										d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Zm2.1-.5 7.9 5.6 7.9-5.6H6.1Zm14.4 1.7-7.2 5.1a1.2 1.2 0 0 1-1.4 0L5.5 8.7v7.8c0 .28.22.5.5.5h11c.28 0 .5-.22.5-.5V8.7Z" />
+								</svg>
+							</span>
+							<span class="contact-item-meta">Email</span>
+							<strong>rahulde937@gmail.com</strong>
+						</a>
+						<div class="contact-item" aria-label="Location">
+							<span class="contact-item-icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24">
+									<path
+										d="M12 21s6-5.65 6-11a6 6 0 1 0-12 0c0 5.35 6 11 6 11Zm0-8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" />
+								</svg>
+							</span>
+							<span class="contact-item-meta">Location</span>
+							<strong>Kolkata, West Bengal</strong>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="contact-message-form reveal" id="contactMessageForm">
+					<label for="contactName">SEND A QUICK MESSAGE</label>
+					<div class="contact-form-fields">
+						<input id="contactName" type="text" placeholder="Your Name" autocomplete="name"
+							aria-label="Your name">
+						<input id="contactEmail" type="email" placeholder="your@email.com" autocomplete="email"
+							aria-label="Your email">
+						<textarea id="contactMsg" placeholder="Your message here..."
+							aria-label="Your message"></textarea>
+					</div>
+					<p class="contact-form-status" id="contactFormStatus" role="status" aria-live="polite"></p>
+					<button class="contact-send-btn" id="contactSendBtn" type="button">Send Message <span
+							aria-hidden="true">→</span></button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="site-footer">
+		<a class="scroll-top-btn" href="#home" aria-label="Back to top">
+			<span aria-hidden="true">↑</span>
+		</a>
+
+		<div class="footer-content">
+			<div class="footer-brand">&lt;/RD&gt;</div>
+			<p class="footer-line">Built with HTML, JavaScript &amp; Tailwind CSS by <span
+					class="footer-highlight">Rahul De</span></p>
+			<p class="footer-tagline">Designed for impact. Engineered for precision.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
